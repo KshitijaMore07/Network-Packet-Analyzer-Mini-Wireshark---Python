@@ -30,3 +30,46 @@ A Python-based desktop application that captures, analyzes, and visualizes netwo
 ---
 
 ## 📁 Project Structure
+
+Network-Packet-Analyzer/
+│
+├── main.py # Entry point
+├── gui.py # GUI design (Tkinter)
+├── packet_capture.py # Packet sniffing logic (Scapy)
+├── session_manager.py # Save & load sessions (JSON)
+├── export_csv.py # Export data to CSV
+├── charts.py # Protocol pie chart
+├── data/ # Saved sessions (optional)
+└── README.md
+
+
+---
+
+## ⚙️ How It Works
+
+```
+
+Start Application
+↓
+Click "Start Capture"
+↓
+Scapy captures packets
+↓
+Packets processed & displayed in GUI
+↓
+User can:
+- Search packets
+- Save session
+- Export CSV
+- View charts
+↓
+Stop Capture
+
+
+📊 Use Cases
+Learning Computer Networks
+Cybersecurity basics
+Network traffic monitoring
+Academic M.Sc. / B.Sc. project
+Understanding TCP/IP communication
+
