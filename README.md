@@ -27,21 +27,6 @@ A Python-based desktop application that captures, analyzes, and visualizes netwo
 - **Data Handling:** JSON, CSV  
 - **Utilities:** Queue, datetime  
 
----
-
-## 📁 Project Structure
-
-Network-Packet-Analyzer/
-│
-├── main.py # Entry point
-├── gui.py # GUI design (Tkinter)
-├── packet_capture.py # Packet sniffing logic (Scapy)
-├── session_manager.py # Save & load sessions (JSON)
-├── export_csv.py # Export data to CSV
-├── charts.py # Protocol pie chart
-├── data/ # Saved sessions (optional)
-└── README.md
-
 
 ---
 
